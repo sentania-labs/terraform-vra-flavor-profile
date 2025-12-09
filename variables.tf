@@ -6,7 +6,7 @@ variable "name" {
 }
 
 variable "description" {
-  type = string
+  type    = string
   default = "Flavor profile created by TF - Do not edit!"
 }
 

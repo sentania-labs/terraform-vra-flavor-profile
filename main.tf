@@ -1,5 +1,5 @@
 resource "vra_flavor_profile" "this" {
-  name = var.name
+  name        = var.name
   description = var.description
   dynamic "flavor_mapping" {
     for_each = var.flavor_mappings
