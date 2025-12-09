@@ -1,8 +1,13 @@
 variable "region_id" {
-
+  type = string
 }
 variable "name" {
+  type = string
+}
 
+variable "description" {
+  type    = string
+  default = "Flavor profile created by TF - Do not edit!"
 }
 
 variable "flavor_mappings" {
