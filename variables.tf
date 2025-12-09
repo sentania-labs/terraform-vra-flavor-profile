@@ -1,8 +1,8 @@
 variable "region_id" {
-
+  type = string
 }
 variable "name" {
-
+  type = string
 }
 
 variable "description" {
