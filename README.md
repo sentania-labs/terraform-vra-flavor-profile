@@ -1,4 +1,6 @@
-# terraform-vra-vmapps-flavor_profile
+# terraform-vra-flavor-profile
+
+Terraform module — creates and manages a vRA / Aria Automation flavor profile, mapping named sizes to compute specs within a region.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
