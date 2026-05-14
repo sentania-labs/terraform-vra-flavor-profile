@@ -1,8 +1,10 @@
 variable "region_id" {
-  type = string
+  type        = string
+  description = "The ID of the region for which this profile is defined"
 }
 variable "name" {
-  type = string
+  type        = string
+  description = "The name of the flavor profile"
 }
 
 variable "description" {
@@ -12,6 +14,6 @@ variable "description" {
 
 variable "flavor_mappings" {
   type        = list(map(string))
-  description = "Capability tags to be applied to the Cloud Account"
+  description = "List of flavor mappings to configure for the profile"
   default     = []
 }
