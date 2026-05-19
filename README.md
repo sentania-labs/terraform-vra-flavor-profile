@@ -31,13 +31,13 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_description"></a> [description](#input\_description) | n/a | `string` | `"Flavor profile created by TF - Do not edit!"` | no |
-| <a name="input_flavor_mappings"></a> [flavor\_mappings](#input\_flavor\_mappings) | Capability tags to be applied to the Cloud Account | `list(map(string))` | `[]` | no |
-| <a name="input_name"></a> [name](#input\_name) | n/a | `string` | n/a | yes |
-| <a name="input_region_id"></a> [region\_id](#input\_region\_id) | n/a | `string` | n/a | yes |
+| <a name="input_flavor_mappings"></a> [flavor\_mappings](#input\_flavor\_mappings) | List of flavor mappings to configure for the profile | `list(map(string))` | `[]` | no |
+| <a name="input_name"></a> [name](#input\_name) | The name of the flavor profile | `string` | n/a | yes |
+| <a name="input_region_id"></a> [region\_id](#input\_region\_id) | The ID of the region for which this profile is defined | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_flavor_profile"></a> [flavor\_profile](#output\_flavor\_profile) | n/a |
+| <a name="output_flavor_profile"></a> [flavor\_profile](#output\_flavor\_profile) | The flavor profile name and ID |
 <!-- END_TF_DOCS -->
